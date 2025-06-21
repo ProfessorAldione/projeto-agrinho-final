@@ -93,3 +93,69 @@ footer {
 footer p {
   margin: 0;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro,
+.conclusion {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.card.reverse {
+  flex-direction: row-reverse;
+}
+
+.card img {
+  max-width: 300px;  /* Tamanho reduzido */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
