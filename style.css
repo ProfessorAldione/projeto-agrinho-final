@@ -1,0 +1,95 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0fdfa, #e0f7ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #00a86b, #4dc3aa);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Parágrafos iniciais e conclusivos */
+.introducao p,
+.conclusao p {
+  font-size: 1.2em;
+  background: #ffffff;
+  border-left: 6px solid #00a86b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Seções com imagem e texto */
+.imagem-texto {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.imagem-texto:hover {
+  transform: scale(1.02);
+}
+
+.imagem-texto img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.imagem-texto figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 0.95em;
+}
+
+.imagem-texto p {
+  font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+  background: #00a86b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95em;
+  margin-top: 40px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  margin: 0;
+}
